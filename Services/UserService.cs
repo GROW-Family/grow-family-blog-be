@@ -155,7 +155,7 @@ namespace blog.Services
                 return null;
             }
 
-            var token = GenToken(user);
+            var token =  GenToken(user);
 
             return token;
         }
