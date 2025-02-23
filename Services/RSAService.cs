@@ -57,7 +57,7 @@ namespace blog.Services
             }
             catch (CryptographicException ex)
             {
-                Console.WriteLine($"❌ RSA Decryption Failed: {ex.Message}");
+                Console.WriteLine($"RSA Decryption Failed: {ex.Message}");
                 throw;
             }
         }
